@@ -22,7 +22,7 @@ Steps to reproduce the bug:
  $ git clone https://github.com/adimascio/testff.git
  $ cd testff
  $ npm install
- $ node server.js
+ $ node index.js
  ```
 
 Now, open your browser on `http://locahost:3000` and try to follow `page1` and `page2` links.
