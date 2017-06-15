@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Test</title>
+    </head>
+    <body>
+        <h1>Hello</h1>
+        <a href="/page1">page1</a>
+        <script>
+            window.addEventListener('unload', (event) => {
+                const req = new XMLHttpRequest();
+                req.open('GET', '/ajax', false); 
+                req.send(null);
+                console.log("ajax request exited with status", req.status);
+            })
+        </script>
+    </body>
+</html>
